@@ -12,8 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up GCC
-        run: sudo apt-get install -y make
+      - name: Set up Make
+        run: sudo apt-get udpate -y && sudo apt-get install -y make
         
       - name: Building via Makefile
       - run: make
